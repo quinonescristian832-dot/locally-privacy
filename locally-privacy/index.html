@@ -16,9 +16,9 @@
       --gray: #888;
       --border: #e0ddd8;
     }
-
+ 
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
     body {
       font-family: 'DM Sans', sans-serif;
       background: var(--cream);
@@ -26,14 +26,14 @@
       font-size: 15px;
       line-height: 1.75;
     }
-
+ 
     /* TOP BAR */
     .top-bar {
       width: 100%;
       height: 4px;
       background: var(--green);
     }
-
+ 
     /* HEADER */
     header {
       background: var(--white);
@@ -45,7 +45,7 @@
       flex-wrap: wrap;
       gap: 16px;
     }
-
+ 
     .logo {
       font-family: 'Playfair Display', serif;
       font-size: 26px;
@@ -54,7 +54,7 @@
       letter-spacing: -0.5px;
     }
     .logo span { color: var(--green); }
-
+ 
     .lang-toggle {
       display: flex;
       gap: 0;
@@ -77,7 +77,7 @@
       background: var(--green);
       color: var(--white);
     }
-
+ 
     /* HERO */
     .hero {
       background: var(--green);
@@ -108,14 +108,14 @@
       margin-bottom: 18px;
       letter-spacing: 0.5px;
     }
-
+ 
     /* LAYOUT */
     .container {
       max-width: 860px;
       margin: 0 auto;
       padding: 48px 24px 80px;
     }
-
+ 
     /* SECTION */
     .section {
       background: var(--white);
@@ -124,7 +124,7 @@
       padding: 36px 40px;
       margin-bottom: 24px;
     }
-
+ 
     .section-num {
       font-size: 11px;
       font-weight: 500;
@@ -133,7 +133,7 @@
       text-transform: uppercase;
       margin-bottom: 6px;
     }
-
+ 
     .section h2 {
       font-family: 'Playfair Display', serif;
       font-size: 20px;
@@ -143,10 +143,10 @@
       padding-bottom: 14px;
       border-bottom: 1px solid var(--border);
     }
-
+ 
     .section p { margin-bottom: 14px; color: #444; }
     .section p:last-child { margin-bottom: 0; }
-
+ 
     .section ul {
       list-style: none;
       padding: 0;
@@ -170,7 +170,7 @@
       background: var(--green);
       opacity: 0.5;
     }
-
+ 
     /* TABLE */
     .data-table {
       width: 100%;
@@ -194,7 +194,7 @@
       color: #444;
     }
     .data-table tr:last-child td { border-bottom: none; }
-
+ 
     /* HIGHLIGHT BOX */
     .highlight {
       background: var(--green-light);
@@ -205,7 +205,7 @@
       color: #2d6b52;
       font-size: 14px;
     }
-
+ 
     .contact-box {
       background: var(--cream);
       border: 1px solid var(--border);
@@ -214,12 +214,12 @@
       margin-top: 16px;
     }
     .contact-box a { color: var(--green); text-decoration: none; font-weight: 500; }
-
+ 
     /* LANG SECTIONS */
     [data-lang] { display: none; }
     .lang-es [data-lang="es"] { display: block; }
     .lang-en [data-lang="en"] { display: block; }
-
+ 
     /* FOOTER */
     footer {
       text-align: center;
@@ -228,7 +228,7 @@
       font-size: 13px;
       border-top: 1px solid var(--border);
     }
-
+ 
     @media (max-width: 600px) {
       .section { padding: 24px 20px; }
       header { padding: 20px; }
@@ -237,9 +237,9 @@
   </style>
 </head>
 <body class="lang-es">
-
+ 
 <div class="top-bar"></div>
-
+ 
 <header>
   <div class="logo">Local<span>ly</span></div>
   <div class="lang-toggle">
@@ -247,7 +247,7 @@
     <button onclick="setLang('en', this)">EN</button>
   </div>
 </header>
-
+ 
 <div class="hero">
   <div class="badge">Legal · Privacy / Privacidad</div>
   <h1 data-lang="es">Política de Privacidad</h1>
@@ -255,30 +255,30 @@
   <p data-lang="es">Última actualización: junio 2025 · Locally, Tijuana B.C., México</p>
   <p data-lang="en">Last updated: June 2025 · Locally, Tijuana B.C., Mexico</p>
 </div>
-
+ 
 <div class="container">
-
+ 
   <!-- ── SECTION 1 ── -->
   <div class="section">
     <div class="section-num">01</div>
-
+ 
     <div data-lang="es">
       <h2>¿Quiénes somos?</h2>
       <p><strong>Locally</strong> es una plataforma móvil de descubrimiento de negocios locales operada desde Tijuana, Baja California, México. Esta política describe cómo recopilamos, usamos y protegemos tu información personal cuando usas nuestra aplicación móvil.</p>
       <div class="highlight">Al usar Locally, aceptas las prácticas descritas en esta política. Si no estás de acuerdo, por favor deja de usar la aplicación.</div>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Who are we?</h2>
       <p><strong>Locally</strong> is a mobile platform for discovering local businesses, operated from Tijuana, Baja California, Mexico. This policy describes how we collect, use, and protect your personal information when you use our mobile application.</p>
       <div class="highlight">By using Locally, you agree to the practices described in this policy. If you disagree, please stop using the application.</div>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 2 ── -->
   <div class="section">
     <div class="section-num">02</div>
-
+ 
     <div data-lang="es">
       <h2>Datos que recopilamos</h2>
       <table class="data-table">
@@ -293,7 +293,7 @@
       </table>
       <p>No recopilamos datos de contacto de tu agenda, contraseñas de otras apps, ni ningún dato sensible no mencionado aquí.</p>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Data we collect</h2>
       <table class="data-table">
@@ -309,11 +309,11 @@
       <p>We do not collect your address book contacts, passwords from other apps, or any sensitive data not mentioned here.</p>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 3 ── -->
   <div class="section">
     <div class="section-num">03</div>
-
+ 
     <div data-lang="es">
       <h2>Cómo usamos tus datos</h2>
       <ul>
@@ -327,7 +327,7 @@
       </ul>
       <p><strong>Nunca</strong> vendemos tu información personal a terceros ni la usamos para publicidad de otras empresas.</p>
     </div>
-
+ 
     <div data-lang="en">
       <h2>How we use your data</h2>
       <ul>
@@ -342,11 +342,11 @@
       <p>We <strong>never</strong> sell your personal information to third parties or use it for advertising from other companies.</p>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 4 ── -->
   <div class="section">
     <div class="section-num">04</div>
-
+ 
     <div data-lang="es">
       <h2>Terceros y servicios externos</h2>
       <p>Locally utiliza los siguientes servicios de terceros. Cada uno tiene su propia política de privacidad:</p>
@@ -360,7 +360,7 @@
       </table>
       <p>Ninguno de estos proveedores tiene autorización de usar tus datos para fines distintos a los servicios que nos prestan.</p>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Third parties and external services</h2>
       <p>Locally uses the following third-party services. Each has its own privacy policy:</p>
@@ -375,28 +375,28 @@
       <p>None of these providers are authorized to use your data for purposes other than the services they provide to us.</p>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 5 ── -->
   <div class="section">
     <div class="section-num">05</div>
-
+ 
     <div data-lang="es">
       <h2>Ubicación</h2>
       <p>Solo accedemos a tu ubicación GPS cuando tienes la app activa en pantalla (permisos <em>While Using</em>). No rastreamos tu ubicación en segundo plano.</p>
       <p>Puedes revocar el permiso de ubicación en cualquier momento desde <strong>Configuración → Locally → Ubicación</strong> de tu iPhone o Android.</p>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Location</h2>
       <p>We only access your GPS location when the app is active on screen (<em>While Using</em> permission). We do not track your location in the background.</p>
       <p>You can revoke location permission at any time from <strong>Settings → Locally → Location</strong> on your iPhone or Android device.</p>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 6 ── -->
   <div class="section">
     <div class="section-num">06</div>
-
+ 
     <div data-lang="es">
       <h2>Tus derechos</h2>
       <ul>
@@ -408,7 +408,7 @@
       </ul>
       <p>Para ejercer cualquier derecho, contáctanos en <a href="mailto:cqextra03@gmail.com" style="color:var(--green)">cqextra03@gmail.com</a>. Respondemos en un máximo de 15 días hábiles.</p>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Your rights</h2>
       <ul>
@@ -421,56 +421,56 @@
       <p>To exercise any right, contact us at <a href="mailto:cqextra03@gmail.com" style="color:var(--green)">cqextra03@gmail.com</a>. We respond within 15 business days.</p>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 7 ── -->
   <div class="section">
     <div class="section-num">07</div>
-
+ 
     <div data-lang="es">
       <h2>Seguridad</h2>
       <p>Todos los datos se transmiten con cifrado <strong>TLS/HTTPS</strong>. Las contraseñas nunca se almacenan en texto plano — usamos el sistema de autenticación de Supabase con hashing bcrypt. Los datos de tarjetas de crédito son manejados exclusivamente por Stripe y nunca pasan por nuestros servidores.</p>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Security</h2>
       <p>All data is transmitted with <strong>TLS/HTTPS</strong> encryption. Passwords are never stored in plain text — we use Supabase's authentication system with bcrypt hashing. Credit card data is handled exclusively by Stripe and never passes through our servers.</p>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 8 ── -->
   <div class="section">
     <div class="section-num">08</div>
-
+ 
     <div data-lang="es">
       <h2>Menores de edad</h2>
       <p>Locally no está dirigida a personas menores de 13 años. Si eres padre o tutor y crees que tu hijo ha creado una cuenta, contáctanos para eliminarla de inmediato.</p>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Minors</h2>
       <p>Locally is not directed at children under 13 years of age. If you are a parent or guardian and believe your child has created an account, contact us so we can delete it immediately.</p>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 9 ── -->
   <div class="section">
     <div class="section-num">09</div>
-
+ 
     <div data-lang="es">
       <h2>Cambios a esta política</h2>
       <p>Podemos actualizar esta política periódicamente. Te notificaremos por correo electrónico o mediante una notificación en la app con al menos <strong>15 días de anticipación</strong> antes de que los cambios entren en vigor. El uso continuo de Locally después de ese período implica aceptación de los nuevos términos.</p>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Changes to this policy</h2>
       <p>We may update this policy periodically. We will notify you by email or via an in-app notification at least <strong>15 days in advance</strong> before changes take effect. Continued use of Locally after that period implies acceptance of the new terms.</p>
     </div>
   </div>
-
+ 
   <!-- ── SECTION 10 ── -->
   <div class="section">
     <div class="section-num">10</div>
-
+ 
     <div data-lang="es">
       <h2>Contacto</h2>
       <p>Si tienes preguntas, comentarios o solicitudes relacionadas con tu privacidad:</p>
@@ -481,7 +481,7 @@
         📸 <a href="https://www.instagram.com/locally_mx/" target="_blank">@locally_mx</a></p>
       </div>
     </div>
-
+ 
     <div data-lang="en">
       <h2>Contact</h2>
       <p>If you have questions, comments, or requests related to your privacy:</p>
@@ -493,13 +493,13 @@
       </div>
     </div>
   </div>
-
+ 
 </div>
-
+ 
 <footer>
   <p>© 2025 Locally · Tijuana, B.C., México · <span id="footer-text">Política de Privacidad / Privacy Policy</span></p>
 </footer>
-
+ 
 <script>
   function setLang(lang, btn) {
     document.body.className = 'lang-' + lang;
